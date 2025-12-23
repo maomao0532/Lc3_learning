@@ -1,4 +1,5 @@
 **/.vscode/**
+**/build/**
 *.obj
 *.out
 lc3-vm
