@@ -109,7 +109,7 @@ uint16_t sign_extend(uint16_t x, int bit_count) {
 }
 
 // 标志位更新
-uint16_t update_flags(uint16_t r) {
+void update_flags(uint16_t r) {
     if (reg[r] == 0) 
         reg[R_COND] = FL_ZRO;
     else if (reg[r] >> 15) 
