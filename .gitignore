@@ -3,3 +3,4 @@
 *.obj
 *.out
 lc3-vm
+.DS_Store  
